@@ -1,87 +1,226 @@
-
-// 2.
-// let son = +prompt("Haqiqiy son kiriting: ");
-
-// console.log(Math.floor(son));
-// console.log(Math.ceil(son));
-// console.log(Math.round(son));
-
-// 2. Random son topish
+// 1 - masalani 3-xil korinishi
 
 
-// let random = Math.random() * 10 + 1;
-// console.log(Math.trunc(random));
-
-
-// let a;
-// let b = null;
-
-// console.log(a, "O'zgaruvchi bor lekin unga qiymat berilmagan");
-// console.log(b, "O'zgaruvchi mavjud lekin uning qimati yo'qligi uchun null");
-
-
-// count = 0;
-// while (count < 10) {
-//   let son = Math.floor(Math.random() * 100 + 1);
-//   count += 1;
-//   console.log(son);
+// function showAge(age) {
+//     console.log(sizning yoshingiz ${age})
 // }
 
+// showAge(20)
 
-// let son = +prompt("Sonni kiriting: ");
-// console.log(Math.pow(son, 2));
+// 2
 
+// const showAge = function (age) {
+//     console.log(Sizning yoshingiz ${age});
+// };
 
-// let son = 1;
-// while (son < 19) {
-//   if (son % 2 !== 0) {
-//     son++;
-//   }
-//   son += 1;
-//   console.log(son);
+// showAge(20);
+
+// 3
+
+// const showAge = (age) => console.log(sizning yoshingiz ${age});
+
+// showAge(20)
+
+//   ///////////
+// 2 - masalani 3-xil korinishi
+
+// function addNumbers(a, b) {
+//     console.log(a + b );
+// }
+// addNumbers(3, 7);
+
+// 2
+
+// const addNumbers = function( a, b){
+//     console.log(a + b)
+// }
+// addNumbers(3, 7)
+
+// 3
+
+// const addNumbers = (a, b) => console.log(a + b)
+
+// addNumbers( 3, 7)
+
+// ///////////
+
+// 3- masalani 3-xil korinishi
+
+// function greet(name) {
+//     console.log(Salom, ${name}!);
 // }
 
+// greet('Ulugbek');
+
+// 2
+
+// const greet = function(name){
+//     console.log(Salom ${name}!)
+// }
+// greet('Ulugbek')
+
+// 3
+
+// const greet = (name) => console.log(Salom ${name}!)
+
+// greet('Ulugbek')
 
 
-// let random = Math.floor(Math.random() * 10) + 1;
-// do {
-//   son = +prompt("1 dan 10 gacha son kiriting:");
-// } while (son !== random);
+// ////////
 
-// alert(random);
+// 4 -masalani 3-xil korinishi
+// function fullName(firstName, lastName){
+//     console.log(${firstName}  ${lastName})
+// }
+// fullName('Ali', 'Valiyev')
 
+// 2
 
-// let son = 1;
+// const fullName = function(firstName, lastName){
+//     console.log(${firstName}  ${lastName})
+// }
+// fullName('Ali', 'Valiyev')
 
-// while (son < 50) {
-//   if (son === 21) {
-//     break;
-//   }
-//   if (son % 3 === 0) {
-//     console.log(son);
-//   }
-//   son++;
+// 3
+
+// const fullName = (firstName, lastName) => console.log(${firstName}  ${lastName})
+// fullName('Ali', 'Valiyev')
+
+// ///////
+// 5 masalani 3-xil korinish
+// function rectanglePerimeter(length, width) {
+//     console.log(2 * (length + width));
+// }
+// rectanglePerimeter(5, 3);
+
+// 2
+
+// const rectanglePerimeter = function(length, width){
+//     console.log(2 * (length + width));
+// }
+// rectanglePerimeter(5, 3)
+
+// 3
+
+// const rectanglePerimeter =(length, width) => console.log(2 * (length + width))
+// rectanglePerimeter(5, 3)
+
+// 3
+
+// ////////
+// 6 -masalani 3-xil korinishi
+// function triangleSides(a, b, c) {
+//     console.log(1-tomon: ${a})
+//     console.log(2-tomon: ${b})
+//     console.log(3-tomon: ${c})
 // }
 
+// triangleSides(3, 4, 5);
 
-// let sanoq = 0;
-// let kattasi;
-// while (sanoq < 5) {
-//   let random = Math.floor(Math.random() * 100) + 1;
-//   console.log(random);
-//   if (sanoq === 0) {
-//     kattasi = random;
-//   } else {
-//     kattasi = Math.max(kattasi, random);
-//   }
+// 2
 
-//   sanoq++;
+// const triangleSides = function(a, b, c){
+//     console.log(1-tomon: ${a})
+//     console.log(2-tomon: ${b})
+//     console.log(3-tomon: ${c})
 // }
-// console.log("Kattsi", kattasi);
+// triangleSides(3, 4, 5)
 
-// let son;
+// 3
 
-// while (son === undefined || son === null || isNaN(son)) {
-//   son = +prompt("Son kiriting:");
+// const triangleSides = (a, b, c) => {
+//     console.log(1-tomon: ${a})
+//     console.log(2-tomon: ${b})
+//     console.log(3-tomon: ${c})
+//   };
+//   triangleSides(3, 4, 5);
+ 
+////////////
+//   7 - masalani 3-xil korinishi
+// function squareNumber(number){
+//     console.log(number  2)
 // }
-// console.log(son);
+// squareNumber(5)
+
+// 2
+
+// const squareNumber = function(number){
+//     console.log(number  2)
+// }
+// squareNumber(5)
+
+// 3
+
+// const squareNumber = (number) => console.log(number ** 2)
+// squareNumber(5)
+
+// ///////
+// 8 -masalani 3-xil koinishi
+// function animmalInfo(name, age){
+//     console.log(Bu ${name}, ${age} yoshda)
+// }
+// animmalInfo('Mushuk', 2)
+
+// 2
+
+// const animmalInfo = function(name, age){
+//     console.log(Bu ${name}, ${age} yoshda)
+// }
+// animmalInfo('Mushuk',2)
+
+// 3
+
+// const animmalInfo = (name, age) => console.log(Bu ${name}, ${age} yoshda)
+// animmalInfo('Mushuk',2)
+
+// ////////
+// 9 masalani 3-xil korinishi
+// function sayHello(world){
+//     console.log(${world})
+// }
+// sayHello('Salom Dunyo!')
+
+// 2
+
+// const sayHello = function(world){
+//     console.log(${world})
+// }
+// sayHello('Salom Dunyo!')
+
+// 3
+
+// const sayHello = (world) => console.log(${world})
+// sayHello('Salom Dunyo!')
+
+// /////////
+// 10 masalani 3-xil korinishi
+// function printNames(name1, name2, name3, name4, name5){
+//     console.log(${name1})
+//     console.log(${name2})
+//     console.log(${name3})
+//     console.log(${name4})
+//     console.log(${name5})
+// }
+// printNames('Ali','Vali', 'Gulbahor', 'Zilola', 'Javohir')
+
+// 2
+
+// const printNames = function(name1, name2, name3, name4, name5){
+//     console.log(${name1})
+//     console.log(${name2})
+//     console.log(${name3})
+//     console.log(${name4})
+//     console.log(${name5})
+// }
+// printNames('Ali','Vali', 'Gulbahor', 'Zilola', 'Javohir')
+
+// 3
+//  const printNames = (name1, name2, name3, name4, name5) => {
+//     console.log(${name1})
+//     console.log(${name2})
+//     console.log(${name3})
+//     console.log(${name4})
+//     console.log(${name5})
+
+// }
+// printNames('Ali','Vali', 'Gulbahor', 'Zilola', 'Javohir')
